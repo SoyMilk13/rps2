@@ -10,13 +10,27 @@
     <body>
         <h1>Rock Paper Scissors Two</h1>
         <img src = 'images/rps2-chart.webp' alt = 'Rock Paper Scissors Two: Action interactions' />
-        <p>Click the button below to play <i>Rock Paper Scissors Two</i>.</p>
-        <button id = 'playButton'>Play now!</button>
-        <h2>How to Play?</h2>
-        <p>In <i>Rock Paper Scissors Two</i>, there are 15 actions you can take. They are:</p>
-        <p class = 'actions'>Rock, Fire, Scissors, Snake, Human, Tree, Wolf, Sponge, Paper, Air, Water, Dragon, Devil, Lightning, and Gun.</p>
-        <p>Attached above is a diagram demonstrating the interactions between all available choices. In short, each action defeats its following seven actions, and is defeated by its preceding seven actions.</p>
-        <p class = 'version'>Version 1.3</p>
+        <p>Enter your choice into the box below, then click "Play now!" to play <i>Rock Paper Scissors Two</i>.</p>
+        <div class = 'interface'>
+            <input type = 'text' class = 'choiceBox' id = 'userChoice' />
+            <button class = 'playButton' id = 'playButton'>Play now!</button>
+        </div>
+        <div id = 'gameInfoDiv'>
+            <p id = gameInfo>a</p>
+        </div>
+        <h2>Options</h2>
+        <button id = 'helpButton'>Show Help Menu</button>
+        <div id = 'helpDiv'>
+            <p>In <i>Rock Paper Scissors Two</i>, there are 15 actions you can take. They are:</p>
+            <p class = 'actions'>Rock, Fire, Scissors, Snake, Human, Tree, Wolf, Sponge, Paper, Air, Water, Dragon, Devil, Lightning, and Gun.</p>
+            <p>Attached above is a diagram demonstrating the interactions between all available choices. In short, each action defeats its following seven actions, and is defeated by its preceding seven actions.</p>
+        </div>
+        <button id = 'creditButton'>Show Credit</button>
+        <div id = 'creditDiv'>
+            <p>This game was made by Soy Milk.</p>
+            <p>GitHub source code can be found here: <a href = 'https://github.com/SoyMilk13/soymilk13.github.io'>https://github.com/SoyMilk13/soymilk13.github.io</a>.</p>
+        </div>
+        <p class = 'version'>Version 1.4</p>
         <script src = 'scripts/main.js'></script>
     </body>
 </html>
