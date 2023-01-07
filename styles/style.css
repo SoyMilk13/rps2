@@ -6,7 +6,6 @@ html {
 h1 {
     font-size: 50px;
     text-align: center;
-    text-shadow: 2px 2px 1px white;
 }
 
 .version {
@@ -28,7 +27,9 @@ html {
 }
 
 body {
-    width: 1000px;
+    width: auto;
+    height: 100vh;
+    overflow: auto;
     display: block;
     margin: 0 auto;
 }
@@ -52,7 +53,6 @@ img {
 
 h2 {
     font-size: 35px;
-    text-shadow: 2px 2px 1px white;
     text-align: center;
 }
 
